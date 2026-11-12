@@ -1,0 +1,18 @@
+uuid = "99df0c7f-2b65-43ca-b7ce-dd5476930c0d"
+name = "Cover Art Box Processing"
+description = "Adds cover art processing for covers added using the cover art box."
+api = ["3.0"]
+authors = ["Michael Beckh"]
+maintainers = ["Michael Beckh"]
+license = "Apache-2.0"
+license_url = "https://www.apache.org/licenses/LICENSE-2.0"
+long_description = """Adds cover art processing for covers added using the cover art box.
+
+Applies to remote URLs, local files and images added using drag and drop.
+This implements the behavior suggested in https://tickets.metabrainz.org/projects/PICARD/issues/PICARD-3547.
+"""
+categories = ["coverart"]
+homepage = "https://github.com/mbeckh/picard-plugin-coverartbox-processing"
+report_bugs_to = "https://github.com/mbeckh/picard-plugin-coverartbox-processing/issues"
+min_python_version = "3.14"
+source_locale = "en"
